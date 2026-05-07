@@ -1,6 +1,6 @@
 package q01_basic.question04;
 
-class MemberManager {
+public class MemberManager {
 
 	/**
 	 * インスタンス化の禁止
@@ -9,5 +9,9 @@ class MemberManager {
 	}
 
 	//TODO showAllMembersメソッドを実装する
-
+	static void showAllMembers(Member[] members) {
+		for (Member member : members) {
+			member.showMember();
+		}
+	}
 }

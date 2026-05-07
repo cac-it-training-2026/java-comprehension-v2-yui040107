@@ -14,6 +14,25 @@ public class SystemMain06 {
 		System.out.println("---CREATE MEMBER DATA---");
 		//TODO ここから実装する
 
+		try {
+			System.out.print("input id>>：");
+			inputId = cr.inputNumber();
+
+			System.out.print("input password>>：");
+			inputPassword = cr.inputString();
+
+			System.out.println("---SHOW MEMBER--- ");
+			System.out.println("***MEMBER DATA*** ");
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		Member member = new Member(inputId, inputPassword, name, age, rank);
+
+		member.showMember();
+		member.buyItem();
+
 	}
 
 }

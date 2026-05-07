@@ -45,6 +45,10 @@ public class Member extends AbstMember {
 		return password;
 	}
 
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
 	public Member() {
 
 	}
@@ -65,7 +69,7 @@ public class Member extends AbstMember {
 
 	@Override
 	public void showMember() {
-		System.out.println("---SHOW ALL MEMBERS--- ");
+		System.out.println("---SHOW  MEMBER--- ");
 		System.out.println("***MEMBER DATA*** ");
 		System.out.println("id:" + id);
 		System.out.println("password" + password);

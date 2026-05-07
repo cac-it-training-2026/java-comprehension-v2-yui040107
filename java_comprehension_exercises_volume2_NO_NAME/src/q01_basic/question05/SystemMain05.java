@@ -7,7 +7,7 @@ public class SystemMain05 {
 		AbstMember[] members = new AbstMember[2];
 		//TODO ここから実装する
 
-		AbstMember mem1 = new Nonmember("Sato Kensuke");
+		AbstMember mem1 = new NonMember("Sato Kensuke");
 		AbstMember mem2 = new Member(1, "Passw0rd", "Miura Manabu", 28, 2);
 
 		members[0] = mem1;

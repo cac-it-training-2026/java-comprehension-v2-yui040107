@@ -8,6 +8,10 @@ public class Member extends AbstMember {
 	private int rank;
 	private int age;
 
+	public Member() {
+
+	}
+
 	public int getAge() {
 		return age;
 	}
@@ -46,8 +50,8 @@ public class Member extends AbstMember {
 		return password;
 	}
 
-	public Member() {
-
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public Member(int id, String password, String name, int age, int rank) {

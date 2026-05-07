@@ -1,8 +1,8 @@
 package q01_basic.question05;
 
-public class Nonmember extends Member {
+public class NonMember extends Member {
 
-	public Nonmember(String name) {
+	public NonMember(String name) {
 		this.name = name;
 	}
 

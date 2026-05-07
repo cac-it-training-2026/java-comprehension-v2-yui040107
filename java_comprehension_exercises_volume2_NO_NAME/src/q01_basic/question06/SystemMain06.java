@@ -21,14 +21,8 @@ public class SystemMain06 {
 			System.out.print("input password>>：");
 			inputPassword = cr.inputString();
 
-			System.out.print("名前：");
-			name = cr.inputString();
-
-			System.out.print("年齢：");
-			age = cr.inputNumber();
-
-			System.out.print("ランク：");
-			rank = cr.inputNumber();
+			System.out.println("---SHOW MEMBER--- ");
+			System.out.println("***MEMBER DATA*** ");
 
 		} catch (Exception e) {
 			e.printStackTrace();
